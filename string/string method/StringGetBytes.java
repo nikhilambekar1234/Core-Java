@@ -1,0 +1,14 @@
+
+class StringGetBytes
+{
+	public static void main(String arg[])
+	{
+		String s1="ABCDEFG";
+		byte [] barr = s1.getBytes();
+		for(int i=0;i<barr.length;i++)
+		{
+			System.out.println(barr[i]);
+		}
+		
+	}
+}
